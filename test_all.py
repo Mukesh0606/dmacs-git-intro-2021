@@ -73,6 +73,17 @@ def test_arrsort():
 
     < write code for testing other functions >
     """
+    Arr= [23, 45, 12, 98, 23, 75, 32]
+    temp Arr.copy()
+    bubblesort= sort()
+    result = bubblesort.bubble_sort(temp)
+    
+    Arr.sort()
+    if(Arr == result):
+        print("Passed Bubble Sort")
+    else:
+        print("Failed Bubble Sort")
+     
     pass
 
 # Group 3
